@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>I Am The App Component</h1>
+        <h1>List of Friends and Their Pets</h1>
         <FriendsList />
       </div>
       

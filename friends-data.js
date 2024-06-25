@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-const friends = [
+export default  [
     {
       name: "Ben",
       age: 29,
