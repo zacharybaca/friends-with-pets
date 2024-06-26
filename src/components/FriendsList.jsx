@@ -7,13 +7,18 @@ import Friend from './Friend';
 function FriendsList() {
     return (
         <div>
+            <ul>
             {friends.map((friend) => 
-                <Friend 
+                <li>
+                    <Friend 
                     name={friend.name}
                     age={friend.age}
                     pets={friend.pets}
-                />
+                    />
+                </li>
             )}
+            </ul>
+            
         </div>
     )
 }
