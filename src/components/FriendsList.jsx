@@ -6,7 +6,7 @@ import Friend from './Friend';
 
 function FriendsList() {
     return (
-        <div>
+        <div id="friend-list-container">
             <ul>
             {friends.map((friend) => 
                 <li>

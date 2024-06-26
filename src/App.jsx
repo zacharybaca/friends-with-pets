@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div id="app-container">
         <h1>List of Friends and Their Pets</h1>
         <FriendsList />
       </div>
