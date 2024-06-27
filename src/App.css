@@ -2,4 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("https://t3.ftcdn.net/jpg/04/81/85/46/360_F_481854656_gHGTnBscKXpFEgVTwAT4DL4NXXNhDKU9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+#app-container > h1 {
+    font-size: 30px;
+    padding-bottom: 2%;
+    font-weight: 800;
+    color: blue;
 }
